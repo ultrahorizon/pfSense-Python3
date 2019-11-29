@@ -7,6 +7,15 @@ It's a well known fact that at present pfSense only comes shipped with Python 2.
 
 ## Easy Installation (Python 3.8 on pfSense 2.4.4)
 
+1. SSH into your pfSense machine and bring up a shell prompt.
+2. Download and install your required version of Python 3 (replace pfSense version and Python version as appropriate).
+```sh
+$> fetch https://github.com/ultrahorizon/pfSense-Python3/raw/master/2.4.4/3.8.txz
+$> pkg add 3.8.txz
+``` 
+
+## Advanced Installation via Git (Python 3.8 on pfSense 2.4.4)
+
 Follow these steps to install Python 3.8 on your pfSense 2.4.4 machine. Where applicable the steps below can be changed to suit different versions of Python or pfSense.
 
 1. SSH into your pfSense machine and bring up a shell prompt.
@@ -15,13 +24,12 @@ Follow these steps to install Python 3.8 on your pfSense 2.4.4 machine. Where ap
 $> pkg install git
 ``` 
 
-3. Clone this repository:
+3. Clone this repository to a directory of your choice:
 ```sh
-$> cd /tmp
 $> git clone git@github.com:ultrahorizon/pfSense-Python3.git
 ``` 
 
-4. Enter the appropriate pfSense version directory (in this case `2.4.4`):
+4. Enter the appropriate pfSense version directory (in this case 2.4.4):
 ```sh
 $> cd /pfSense-Python3/2.4.4
 ``` 
