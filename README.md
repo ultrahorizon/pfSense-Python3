@@ -10,6 +10,7 @@ It's a well known fact that at present pfSense only comes shipped with Python 2.
 1. SSH into your pfSense machine and bring up a shell prompt.
 2. Download and install your required version of Python 3 (replace pfSense version and Python version as appropriate).
 ```sh
+$> cd /tmp
 $> fetch https://github.com/ultrahorizon/pfSense-Python3/raw/master/2.4.4/3.6.txz
 $> pkg add 3.6.txz
 ``` 
