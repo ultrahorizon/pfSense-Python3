@@ -1,5 +1,5 @@
 3.3.txz -> 3.3.6_5
 3.4.txz -> 3.4.4_3
 3.5.txz -> 3.5.1_3
-3.6.txz -> 3.6.9_3
-3.7.txz -> 3.7.6
+3.6.txz -> 3.6.9_3 (requires IGNORE_OSVERSION=yes during install)
+3.7.txz -> 3.7.6   (requires IGNORE_OSVERSION=yes during install)
