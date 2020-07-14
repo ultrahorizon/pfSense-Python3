@@ -3,7 +3,7 @@
 
 ## Overview
 
-It's a well known fact that at present pfSense only comes shipped with Python 2.7. As Python 2.7 is due to be deprecated on the 1st January 2020, this repository aims to provide an easy and quick way to install Python 3 on pfSense. A variety of Python 3 versions are available for each pfSense revision. These will be updated as pfSense stable releases are created.
+Prior to version 2.4.5, pfSense only shipped with Python 2.7. This repository aims to provide a quick and easy way to install Python 3 on pfSense versions prior to 2.4.5. A variety of Python 3 versions are available for each pfSense revision. These will be updated as pfSense stable releases are created.
 
 ## Easy Installation (Python 3.6 on pfSense 2.4.4-RELEASE-p3 amd64)
 
